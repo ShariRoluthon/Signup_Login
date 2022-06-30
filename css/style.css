@@ -1,0 +1,44 @@
+/* Author- Shari Roluthon
+Date - 30th June 2022 */
+
+
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Poppins:wght@200&family=Rubik:wght@300&display=swap');
+    *{
+        font-family: "Rubik";
+    }
+    .banner{
+        background-color: #D1F2EB;
+        background-image: url("../images/Background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .btncolor{
+        background: linear-gradient(91.51deg, #0098E8 0.09%, #58E2EE 100.15%);
+    }
+    .LinkColor{
+        color: #00C9A7;
+    }
+    footer{
+        background-image: url("../images/Background.png"), linear-gradient(91.51deg, #0098E8 10.09%, #58E2EE 90.15%); 
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .textcolor{
+        background: -webkit-linear-gradient(32.51deg, #0098E8 0.09%, #58E2EE 100.15%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /* media queries */
+    @media screen and (min-width:577px) and (max-width:992px){
+        .widthset{
+            width: 85% !important;
+        }
+    }
+    @media screen and (max-width:576px){
+        .widthset{
+            width: 100% !important;
+        }
+    }
